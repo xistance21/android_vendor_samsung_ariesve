@@ -72,6 +72,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/samsung/ariesve/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
+# Camera firmware
+    vendor/samsung/ariesve/proprietary/firmware/CE147F00.bin:system/firmware/CE147F00.bin \
+    vendor/samsung/ariesve/proprietary/firmware/CE147F01.bin:system/firmware/CE147F01.bin \
+    vendor/samsung/ariesve/proprietary/firmware/CE147F02.bin:system/firmware/CE147F02.bin \
+    vendor/samsung/ariesve/proprietary/firmware/CE147F03.bin:system/firmware/CE147F03.bin
+
 # RIL
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
