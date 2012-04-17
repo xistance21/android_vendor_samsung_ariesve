@@ -53,11 +53,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/hw/sensors.GT-I9001.so:system/lib/hw/sensors.ariesve.so
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/samsung/ancora/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/samsung/ancora/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
+    vendor/samsung/ariesve/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/samsung/ariesve/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/ariesve/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/ariesve/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/ariesve/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
