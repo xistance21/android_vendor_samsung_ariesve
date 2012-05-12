@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 # Binaries
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/bin/geomagneticd:system/bin/geomagneticd \
-    vendor/samsung/ariesve/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/ariesve/proprietary/bin/orientationd:system/bin/orientationd \
     vendor/samsung/ariesve/proprietary/bin/rmt_storage:system/bin/rmt_storage
 
