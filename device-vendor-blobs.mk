@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/samsung/ariesve/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+    vendor/samsung/ancora/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ariesve/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # Binaries
@@ -31,7 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/ariesve/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv
 
-# Libs
+# Adreno libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/samsung/ariesve/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -41,19 +42,34 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/samsung/ariesve/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/samsung/ariesve/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/samsung/ariesve/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/samsung/ariesve/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
+
+# HW libs
+PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/samsung/ariesve/proprietary/lib/libcamera.so:system/lib/libcamera.so \
-    vendor/samsung/ariesve/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/samsung/ariesve/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/samsung/ariesve/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
     vendor/samsung/ariesve/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
     vendor/samsung/ariesve/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.ariesve.so \
     vendor/samsung/ariesve/proprietary/lib/hw/sensors.GT-I9001.so:system/lib/hw/sensors.ariesve.so
 
+# Camera libs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/ariesve/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
+    vendor/samsung/ariesve/proprietary/lib/libCaMotion.so:system/lib/libCaMotion \
+    vendor/samsung/ariesve/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
+    vendor/samsung/ariesve/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so
+    vendor/samsung/ariesve/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+    vendor/samsung/ariesve/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/samsung/ariesve/proprietary/lib/libcaps.so:system/lib/libcaps.so \
+    vendor/samsung/ariesve/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/samsung/ariesve/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/ariesve/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/samsung/ariesve/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
+    vendor/samsung/ariesve/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
+    vendor/samsung/ariesve/proprietary/lib/libsecjpegencoder.so:system/lib/libsecjpegencoder.so
+
+# Media libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/samsung/ariesve/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/ariesve/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/ariesve/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/samsung/ariesve/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
