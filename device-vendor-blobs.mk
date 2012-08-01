@@ -18,7 +18,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/samsung/ariesve/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/samsung/ancora/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
+    vendor/samsung/ariesve/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ariesve/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # Binaries
@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/ariesve/proprietary/lib/libCaMotion.so:system/lib/libCaMotion \
     vendor/samsung/ariesve/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
-    vendor/samsung/ariesve/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so
+    vendor/samsung/ariesve/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/ariesve/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/ariesve/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/ariesve/proprietary/lib/libcaps.so:system/lib/libcaps.so \
