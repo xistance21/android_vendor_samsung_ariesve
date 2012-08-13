@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
 # Camera libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
-    vendor/samsung/ariesve/proprietary/lib/libCaMotion.so:system/lib/libCaMotion \
+    vendor/samsung/ariesve/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
     vendor/samsung/ariesve/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
     vendor/samsung/ariesve/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/ariesve/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
