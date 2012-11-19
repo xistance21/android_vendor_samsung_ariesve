@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/ariesve/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/samsung/ariesve/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/samsung/ariesve/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/samsung/ariesve/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/samsung/ariesve/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/ariesve/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
