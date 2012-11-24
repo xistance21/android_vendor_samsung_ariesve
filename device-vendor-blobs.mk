@@ -17,6 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/samsung/ariesve/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/samsung/ariesve/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/ariesve/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/samsung/ariesve/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ariesve/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
@@ -97,5 +98,7 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ariesve/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/ariesve/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/ariesve/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/ariesve/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
