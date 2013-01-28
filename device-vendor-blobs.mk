@@ -70,10 +70,12 @@ PRODUCT_COPY_FILES += \
 
 # Media libs
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ariesve/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/samsung/ariesve/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/samsung/ariesve/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ariesve/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ariesve/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ariesve/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ariesve/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so
+    vendor/samsung/ariesve/proprietary/lib/libmmparser.so:system/lib/libmmparser.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
